@@ -309,6 +309,9 @@ footer .row{
     #carouselExampleControls img{
         height: auto;
      }
+    .btn{
+        width: auto;
+    }
 
     
     
@@ -347,8 +350,10 @@ footer .row{
 
     #carouselExampleControls img{
         height: auto;
-        
      }
+    .btn{
+        width: auto;
+    }
 }
 
 @media(max-width: 479px){
@@ -384,6 +389,9 @@ footer .row{
     .tredingnow{
         height: auto;
         width: 100%;
+    }
+    .btn{
+        width: auto;
     }
 
     .tredingnow img{
