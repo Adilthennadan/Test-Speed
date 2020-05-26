@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+   background-color: #296d98;
+}
+
+ul{
+    list-style: none;
+    margin-top: 15px;
+    margin-right: 35px;
+}
+
+ul li{
+    display: inline-block;   
+}
+
+ul li a{
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid transparent; border-radius: 20px;
+}
+
+ul li a:hover{
+    background-color: #1c4966;
+    color: white;
+    transition: 0.6s ease;
+}
+
+.nav-item a{
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+}
+
+.navbar-brand{
+    font-family: 'Jost', sans-serif;
+    font-size: 40px;
+    padding-left: 40px;
+    padding-top: 15px;   
+}
+
+#carouselExampleControls {
+    width: 100%;
+    margin-top: 58px;
+    margin-bottom: 0px;
+   
+    background-color: #f2f3f4;
+}
+
+#carouselExampleControls img{
+    width: 1350px;
+    height: 280px;
+}
+
+.imgone1{
+    padding-bottom: 20px;
+    
+}
+.imgone2{
+    padding-bottom: 20px;
+}
+.imgone3{
+    padding-bottom: 20px;
+}
+.imgone4{
+    padding-bottom: 20px;
+}
+.imgone5{
+    padding-bottom: 20px;
+}
+.imgone6{
+    padding-bottom: 20px;
+}
+
+.tredingnow-text{
+    color: rgb(70, 68, 68);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 0;
+    font-size: 35px;
+    font-family: 'Jost', sans-serif;
+}
+
+.tredingnow{
+    background-color: #f2f3f4;
+    height: 580px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tredingnow img{
+    width: 650px;
+    height: 235px;
+    border-radius: 20px;
+    margin-right: 0px;
+    padding: 0;
+}
+
+.Products{
+    background-color: #f2f3f4;
+    height: auto;
+    width: 100%;
+    padding: 15px 0px 50px;
+}
+
+.Products h1{   
+    color: rgb(70, 68, 68);
+    text-align: center;
+    padding: 0px;
+    font-size: 35px;
+    font-family: 'Jost', sans-serif;
+}
+
+.card{
+    margin-top: 40px;
+}
+.card-title {
+    color: rgb(39, 39, 39);
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
+    line-height: 5px;
+}
+
+.card-text{
+    font-weight: bold;
+    font-size: 20px;
+    color: brown;
+}
+
+.btn{
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+}
+
+#b{
+    background-color: #fb641b;
+    color: seashell;
+    border-radius: 10px;
+}
+
+#b:hover {
+  background-color: #b34a15;
+  color: white;
+}
+
+#bcd{
+    margin-top: 40px;
+}
+
+#bcd{
+    background-color: rgb(46, 40, 73);
+    color: seashell;
+    border-radius: 30px;
+}
+
+#bcd:hover {
+  background-color: rgb(18, 18, 19);
+  color: white;
+}
+
+.footer-top{
+    background-color:  #1b1d30;
+    padding-top: 10px;
+    height: 140px;
+}
+
+footer .row{
+    padding-top: 15px;
+}
+
+.segment-one p{
+    font-size: 16px;
+    line-height: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+    margin-top: 20px;
+    color: rgb(192, 191, 192);
+    
+}
+
+.segment-three h5{
+    color: rgb(192, 191, 192);
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.segment-three a i{
+    font-size: 30px;
+    margin: 15px;
+    margin-top: 0px;
+    
+}   
+
+.segment-three a{
+    color: white;
+}
+
+.segment-three a:hover{
+    color: rgb(255, 136, 0);
+}
+
+.footer-bottom{
+    background-color:  #16161b;
+    height: 65px;
+}
+.footer-bottom p{
+    color: rgb(172, 171, 170);
+    margin: 0;
+    line-height: 23px;
+}
+
+
+@media(min-width: 992px){
+    .tredingnow img{
+        width: auto;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #carouselExampleControls img{
+        height: auto;
+        width: 100%;
+     }
+
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+
+    .tredingnow{
+        height: auto;
+        width: 100%;
+    }
+
+    .tredingnow img{
+        width: auto;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .Products{
+        height: auto;
+    }
+
+    .footer-top{
+        height: auto;
+    }
+    .btn{
+        width: auto;
+    }
+    
+    .footer-bottom{
+        height: auto; 
+     }
+     .footer-bottom p{
+        line-height: 25px;
+    }
+
+    #carouselExampleControls img{
+        height: auto;
+     }
+
+   
+
+    
+}
+
+@media(min-width: 575px) and (max-width: 767px){
+
+    .tredingnow{
+        height: auto;
+        width: 100%;
+    }
+
+    .tredingnow img{
+        width: auto;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .Products{
+        height: auto;
+    }
+
+    .footer-top{
+        height: auto;
+    }
+
+    .footer-bottom{
+        height: auto; 
+     }
+     .footer-bottom p{
+        line-height: 25px;
+    }
+
+    #carouselExampleControls img{
+        height: auto;
+     }
+
+    
+    
+}
+
+@media(min-width: 480px) and (max-width: 574px){
+
+    .tredingnow{
+        height: auto;
+        width: 100%;
+    }
+
+    .tredingnow img{
+        width: auto;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .Products{
+        height: auto;
+    }
+
+    .footer-top{
+        height: auto;
+    }
+
+    .footer-bottom{
+        height: auto; 
+     }
+     .footer-bottom p{
+        line-height: 25px;
+    }
+
+    #carouselExampleControls img{
+        height: auto;
+        
+     }
+}
+
+@media(max-width: 479px){
+
+    .hearderset h2{
+        font-size: 22px;
+    }
+
+    .hearderset h1{
+       font-size: 42px;
+       font-weight: bold;
+    }
+
+    .Products{
+       height: auto;
+    }
+
+   .footer-top{
+       height: auto; 
+    }
+
+    .footer-bottom{
+        height: auto; 
+    }
+    .footer-bottom p{
+        line-height: 25px;
+    }
+    
+    #carouselExampleControls img{
+       height: auto;
+    }
+
+    .tredingnow{
+        height: auto;
+        width: 100%;
+    }
+
+    .tredingnow img{
+        width: auto;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}

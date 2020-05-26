@@ -1,0 +1,98 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.bgimg{
+  background: linear-gradient(to top, #000066 0%, #111313 100%);
+  height: 100vh;
+}
+
+.context{
+  text-align: center;
+  padding-top: 120px;
+  color: #ffffcc;
+  font-family: 'Jost', sans-serif;
+  font-size: 35px;
+}
+
+.contextp{
+  text-align: center;
+  color: rgb(148, 148, 148);
+  font-size: 20px;
+  font-family: 'Jost', sans-serif;
+
+}
+
+
+
+.row{
+  padding-top: 50px;
+}
+
+.row h1{
+  text-align: center;
+  color: rgb(145, 144, 144);
+  font-family: 'Jost', sans-serif;
+  font-size: 35px;
+}
+
+.adpara{
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: 'Jost', sans-serif;
+
+}
+
+.icon a{
+  font-size: 30px;
+  padding: 8px;
+  color: white;
+}
+
+.icon a:hover{
+  color: rgb(255, 166, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width: 992px){
+    
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+
+    
+   
+}
+
+@media(min-width: 575px) and (max-width: 767px){
+
+    
+}
+
+@media(min-width: 480px) and (max-width: 574px){
+
+    
+}
+
+@media(max-width: 479px){
+  
+  
+
+}

@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bgimg{
+    background-color: #f2f3f4;
+    height: 60px;
+    width: 100%;
+}
+
+.navbar{
+   background-color: #296d98;
+}
+
+ul{
+    list-style: none;
+    margin-top: 15px;
+    margin-right: 35px;
+}
+
+ul li{
+    display: inline-block;   
+}
+
+ul li a{
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid transparent; border-radius: 20px;
+}
+
+ul li a:hover{
+    background-color: #1c4966;
+    color: white;
+    transition: 0.6s ease;
+}
+
+.nav-item a{
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+}
+
+.backfont{
+    font-size: 25px;
+    color: white;
+}
+
+.navbartwo{
+    height: 55px;
+    background-color: blanchedalmond;
+    padding-top: 16px;
+}
+
+#c{
+    padding: 5px 10px;
+    text-decoration: none;
+    color: darkslategrey;
+    font-family: 'Jost', sans-serif;
+}
+
+#c:hover{
+    background-color: #252f35;
+    color: floralwhite;
+    transition: 0.10s ease;
+    border-radius: 30px;
+}
+
+.Products{
+    background-color: #f2f3f4;
+    height: auto;
+    width: 100%;
+    padding: 20px 0px 0px;
+}
+
+#keychains{
+    padding-bottom: 50px;
+}
+
+.Products h1{   
+    color: rgb(70, 68, 68);
+    text-align: center;
+    padding: 0px;
+    font-size: 35px;
+    font-family: 'Jost', sans-serif;
+}
+
+.card{
+    margin-top: 40px;
+}
+
+.card-title {
+    color: rgb(39, 39, 39);
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
+    line-height: 5px;
+}
+
+.card-text{
+    font-weight: bold;
+    font-size: 20px;
+    color: brown;
+}
+
+.btn{
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+}
+
+#b{
+    background-color:  #fb641b;
+    color: seashell;
+    border-radius: 10px;
+}
+
+#b:hover {
+  background-color:  #af430d;
+  color: white;
+}
+
+
+
+.footer-top{
+    background-color:  #1b1d30;
+    padding-top: 10px;
+    height: 140px;
+}
+
+footer .row{
+    padding-top: 15px;
+}
+
+.segment-one p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 3px;
+    margin-top: 20px;
+    margin-left: 15px;
+    color: rgb(192, 191, 192);
+}
+
+.segment-three h5{
+    margin-left: 15px;
+    margin-top: 10px;
+    color: rgb(192, 191, 192);
+}
+
+.segment-three a i{
+    font-size: 30px;
+    margin: 15px;
+    margin-top: 0px;
+}   
+
+.segment-three a{
+    color: white;
+}
+
+.segment-three a:hover{
+    color: rgb(255, 136, 0);
+}
+
+.footer-bottom{
+    background-color:  #16161b;
+    height: 65px;
+}
+.footer-bottom p{
+    color: rgb(172, 171, 170);
+    margin: 0;
+    line-height: 23px;
+}
+
+
+@media(min-width: 992px){
+    
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+
+    
+}
+
+@media(min-width: 575px) and (max-width: 767px){
+    .navbartwo{
+        height: 70px;
+        background-color: blanchedalmond;
+    }
+
+    #c{
+        margin-top: 8px;
+        text-decoration: none;
+        color: white;
+        font-family: 'Jost', sans-serif;
+        line-height: 40px;
+        background-color: rgb(36, 41, 39);
+        border-radius: 20px;
+    }
+
+    #c:hover{
+        background-color: #20475f;
+        color: floralwhite;
+        transition: 0.10s ease;
+        border-radius: 30px;
+    }
+
+    .footer-top{
+        height: auto;
+    }
+
+    .footer-bottom{
+        height: auto;
+    }
+       
+}
+
+@media(min-width: 480px) and (max-width: 574px){
+    .navbartwo{
+        height: 100px;
+        background-color: blanchedalmond;
+        
+    }
+
+    #c{
+        margin-top: 8px;
+        text-decoration: none;
+        color: white;
+        font-family: 'Jost', sans-serif;
+        line-height: 40px;
+        background-color: rgb(36, 41, 39);
+        border-radius: 20px;
+    }
+
+    #c:hover{
+        background-color: #20475f;
+        color: floralwhite;
+        transition: 0.10s ease;
+        border-radius: 30px;
+    }
+
+    .footer-top{
+        height: auto;
+    }
+
+    .footer-bottom{
+        height: auto;
+    }
+    
+
+}
+
+@media(max-width: 479px){
+
+    .navbartwo{
+        height: 100px;
+        background-color: blanchedalmond;
+        
+    }
+
+    #c{
+        margin-top: 8px;
+        text-decoration: none;
+        color: white;
+        font-family: 'Jost', sans-serif;
+        line-height: 40px;
+        background-color: rgb(36, 41, 39);
+        border-radius: 20px;
+    }
+
+    #c:hover{
+        background-color: #20475f;
+        color: floralwhite;
+        transition: 0.10s ease;
+        border-radius: 30px;
+    }
+
+    .footer-top{
+        height: auto;
+    }
+
+    .footer-bottom{
+        height: auto;
+    }
+
+    
+
+}
